@@ -22,7 +22,6 @@ Use it:
 ## Example Usage
 
 ```tsx
-const { address, connect, disconnect, provider } = useBiconomyAccountAbstraction();
 
 export default function Menu() {
   const { address, connect, disconnect } = useBiconomyAccountAbstraction();
@@ -55,9 +54,9 @@ export default function Menu() {
             /* something if the user is logged in */
           }
         ) : (
-          <Button variant="ghost" className="rounded-full" onClick={login}>
-            <ProfileIcon className="h-6 w-6" />
-          </Button>
+          <button className="rounded-full" onClick={login}>
+            Login
+          </button>
         )}
       </div>
     </div>
