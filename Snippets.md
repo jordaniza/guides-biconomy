@@ -1,5 +1,7 @@
 # Some Snippets I used working with Biconomy
 
+SDK versions are listed in the dependencies.json file
+
 ### Particle Chain names
 
 Ethers and particle will connect to homestead by default. To connect to other chains, you need to pass the chainId and chainName to the particle provider.
@@ -22,7 +24,6 @@ Use it:
 ## Example Usage
 
 ```tsx
-
 export default function Menu() {
   const { address, connect, disconnect } = useBiconomyAccountAbstraction();
 
