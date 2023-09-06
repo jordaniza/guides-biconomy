@@ -16,7 +16,6 @@ Use it:
 ## Example Usage
 
 ```tsx
-const { address, connect, disconnect, provider } = useBiconomyAccountAbstraction();
 
 export default function Menu() {
   const { address, connect, disconnect } = useBiconomyAccountAbstraction();
