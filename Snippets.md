@@ -1,6 +1,6 @@
 # Some Snippets I used working with Biconomy
 
-SDK versions are listed in the dependencies.json file
+SDK versions are listed in the [dependencies](./dependencies) file
 
 ### Particle Chain names
 
