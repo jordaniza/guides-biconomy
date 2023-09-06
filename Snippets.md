@@ -1,5 +1,11 @@
 # Some Snippets I used working with Biconomy
 
+### Particle Chain names
+
+Ethers and particle will connect to homestead by default. To connect to other chains, you need to pass the chainId and chainName to the particle provider.
+
+The next folder gives an example of passing both, but you could equally use a lookup table defined in [`particleChainNames`](./snippets/particle/particleChainNames.ts)
+
 ### React Context hook
 
 Inspired by Web3React, this component defines a reusable context hook that caches app-wide variables in a useCallback hook.
@@ -58,3 +64,5 @@ export default function Menu() {
   );
 }
 ```
+
+d
