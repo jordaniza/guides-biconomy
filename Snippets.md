@@ -8,9 +8,9 @@ Ethers and particle will connect to homestead by default. To connect to other ch
 
 The next folder gives an example of passing both, but you could equally use a lookup table defined in [`particleChainNames`](./snippets/particle/particleChainNames.ts)
 
-### React Context hook
+### React Context hook with NextJS
 
-Inspired by Web3React, this component defines a reusable context hook that caches app-wide variables in a useCallback hook.
+Inspired by Web3React, [this component](./snippets/next) defines a reusable context hook that caches app-wide variables in a useCallback hook.
 
 Use it:
 
