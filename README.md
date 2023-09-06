@@ -19,7 +19,6 @@ import { nodePolyfills } from "vite-plugin-node-polyfills";
 export default defineConfig({
   plugins: [
     sveltekit(),
-d
     nodePolyfills({
       // Whether to polyfill specific globals.
       globals: {
